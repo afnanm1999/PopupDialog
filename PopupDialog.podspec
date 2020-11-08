@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/theMWFire'
 
   s.ios.deployment_target = '9.0'
-  s.source_files = 'PopupDialog/Classes/**/*'
+  s.source_files = 'Sources/PopupDialog/**/*'
 
   s.dependency 'DynamicBlurView', '~> 2.0'
 end

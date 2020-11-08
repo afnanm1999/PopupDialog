@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DynamicBlurView",
+        "repositoryURL": "https://github.com/KyoheiG3/DynamicBlurView.git",
+        "state": {
+          "branch": null,
+          "revision": "fbf91352ff3defee8e1fc7525696404bc3740a86",
+          "version": "5.0.4"
+        }
+      },
+      {
+        "package": "FBSnapshotTestCase",
+        "repositoryURL": "https://github.com/bfernandesbfs/ios-snapshot-test-case.git",
+        "state": {
+          "branch": "feature/spm",
+          "revision": "a745ec0fab20c82f7f4c6d31759c584d9120a0fc",
+          "version": null
+        }
+      },
+      {
+        "package": "Nimble",
+        "repositoryURL": "https://github.com/Quick/Nimble.git",
+        "state": {
+          "branch": null,
+          "revision": "7a46a5fc86cb917f69e3daf79fcb045283d8f008",
+          "version": "8.1.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

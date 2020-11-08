@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "PopupDialog/Classes/**/*",
+  "source_files": "Sources/PopupDialog/**/*",
   "dependencies": {
     "DynamicBlurView": [
       "~> 2.0"

@@ -31,21 +31,21 @@ class SnapshotTests: FBSnapshotTestCase {
     func testStandardDialogWithImage() {
         vc.showImageDialog(animated: false)
         let date = Date(timeIntervalSinceNow: 1)
-        RunLoop.current.run(mode: .defaultRunLoopMode, before: date)
+        RunLoop.current.run(mode: .default, before: date)
         FBSnapshotVerifyView(window)
     }
     
     func testStandardDialogWithoutImage() {
         vc.showStandardDialog(animated: false)
         let date = Date(timeIntervalSinceNow: 1)
-        RunLoop.current.run(mode: .defaultRunLoopMode, before: date)
+        RunLoop.current.run(mode: .default, before: date)
         FBSnapshotVerifyView(window)
     }
     
     func testCustomDialog() {
         vc.showCustomDialog(animated: false)
         let date = Date(timeIntervalSinceNow: 1)
-        RunLoop.current.run(mode: .defaultRunLoopMode, before: date)
+        RunLoop.current.run(mode: .default, before: date)
         FBSnapshotVerifyView(window)
     }
 }
